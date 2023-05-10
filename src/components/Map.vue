@@ -26,8 +26,8 @@ export default {
       layers: [
         new TileLayer({
           source: new TileArcGISRest({
-            url: 'https://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer',   //   王海哥哥  等下你注释这行
-            // url: 'https://map.geoq.cn/ArcGIS/rest/services/sdsl_blue/MapServer',           // 王海哥哥  等下你运行这行
+            url: 'https://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer',
+            // url: 'https://map.geoq.cn/ArcGIS/rest/services/sdsl_blue/MapServer',
           })
         })
       ],
